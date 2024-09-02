@@ -9,8 +9,8 @@
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "fill",
-      "backgroundColor": "#0200a8"
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
@@ -40,7 +40,16 @@
     "extra": {
       "router": {
         "origin": "https://weather.com/"
+      },
+      "eas": {
+        "projectId": "35e75358-5399-486b-9f69-d8bd0758bcdc"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/35e75358-5399-486b-9f69-d8bd0758bcdc"
     }
   }
 }
